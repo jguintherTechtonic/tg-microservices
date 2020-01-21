@@ -13,16 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springframework.samples.petclinic.discovery;
+package org.techtonic.microservices.config;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
-@SpringBootTest
-class DiscoveryServerApplicationTests {
+/**
+ * @author Maciej Szarlinski
+ */
+@EnableConfigServer
+@SpringBootApplication
+public class ConfigServerApplication {
 
-	@Test
-	void contextLoads() {
+	public static void main(String[] args) {
+		SpringApplication.run(ConfigServerApplication.class, args);
 	}
-
 }

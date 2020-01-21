@@ -3,14 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springframework.samples.petclinic.discovery</groupId>
-    <artifactId>spring-petclinic-discovery-server</artifactId>
+    <groupId>org.techtonic.microservices.discovery</groupId>
+    <artifactId>microservices-discovery-server</artifactId>
     <packaging>jar</packaging>
-    <description>Spring PetClinic Discovery Server</description>
-
+    <description>TG-Microservices Discovery Server</description>
+<!--    org.techtonic.microservices:tg-microservices-->
+<!--    instead of-->
+<!--    org.springframework.samples:spring-petclinic-microservices-->
     <parent>
-        <groupId>org.springframework.samples</groupId>
-        <artifactId>spring-petclinic-microservices</artifactId>
+        <groupId>org.techtonic.microservices</groupId>
+        <artifactId>tg-microservices</artifactId>
         <version>2.2.1</version>
     </parent>
 
