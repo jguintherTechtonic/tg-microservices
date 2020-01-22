@@ -9,21 +9,15 @@
         <version>2.2.1.RELEASE</version>
     </parent>
 
-    <groupId>org.techtonic.microservices</groupId>
+    <groupId>com.techtonic.microservices</groupId>
     <artifactId>tg-microservices</artifactId>
     <version>2.2.1</version>
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
 
     <modules>
-        <module>microservices-config-server</module>
-        <module>microservices-discovery-server</module>
-<!--        <module>untitled</module>-->
-<!--        <module>spring-petclinic-vets-service</module>-->
-<!--        <module>spring-petclinic-visits-service</module>-->
-<!--        <module>spring-petclinic-config-server</module>-->
-<!--        <module>spring-petclinic-discovery-server</module>-->
-<!--        <module>spring-petclinic-api-gateway</module>-->
+        <module>tg-config-server</module>
+        <module>tg-discovery-server</module>
     </modules>
 
     <properties>

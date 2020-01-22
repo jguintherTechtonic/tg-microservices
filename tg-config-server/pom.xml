@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.techtonic.microservices.config</groupId>
+	<groupId>com.techtonic.microservices.config</groupId>
 	<artifactId>microservices-config-server</artifactId>
 	<packaging>jar</packaging>
 	<description>TG-Microservices Config Server</description>
 
     <parent>
-        <groupId>org.techtonic.microservices</groupId>
+        <groupId>com.techtonic.microservices</groupId>
         <artifactId>tg-microservices</artifactId>
         <version>2.2.1</version>
     </parent>
